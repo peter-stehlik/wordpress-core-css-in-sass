@@ -2,4 +2,4 @@
 
 If you code templates for WordPress and using SASS, you may find useful this .scss file.
 
-It contains WordPress core CSS in SASS.
+WordPress generates some classes automatically, find more at https://codex.wordpress.org/CSS#WordPress_Generated_Classes.
