@@ -1,0 +1,76 @@
+/**
+    WordPress core CSS styles (https://codex.wordpress.org/CSS#WordPress_Generated_Classes) rewritten into SASS
+    by Peter Stehlik https://github.com/peter-stehlik
+**/
+$m_small: 5px;
+$m_big: 20px;
+
+.alignnone {
+    margin:$m_small $m_big $m_big 0;
+}
+.aligncenter, div.aligncenter {
+    display:block;
+    margin:$m_small auto $m_small auto;
+}
+.alignright {
+    float:right;
+    margin:$m_small 0 $m_big $m_big;
+}
+.alignleft {
+    float:left;
+    margin:$m_small $m_big $m_big 0;
+}
+.aligncenter {
+    display:block;
+    margin:$m_small auto $m_small auto;
+}
+a {
+    img.alignright {
+        float:right;
+        margin:$m_small 0 $m_big $m_big;
+    }
+    img.alignnone {
+        margin:$m_small $m_big $m_big 0;
+    }
+    img.alignleft {
+        float:left;
+        margin:$m_small $m_big $m_big 0;
+    }
+    img.aligncenter {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+.wp-caption {
+    background:#fff;
+    border:1px solid #f0f0f0;
+    max-width:96%; /* Image does not overflow the content area */
+    padding:5px 3px 10px;
+    text-align:center;
+
+    &.alignnone {
+        margin:$m_small $m_big $m_big 0;
+    }
+    &.alignleft {
+        margin:$m_small $m_big $m_big 0;
+    }
+    &.alignright {
+        margin:$m_small 0 $m_big $m_big;
+    }
+    img {
+        border:0 none;
+        height:auto;
+        margin:0;
+        max-width:98.5%;
+        padding:0;
+        width:auto;
+    }
+    p.wp-caption-text {
+        font-size:11px;
+        line-height:17px;
+        margin:0;
+        padding:0 4px 5px;
+    }
+}
